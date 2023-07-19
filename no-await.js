@@ -110,7 +110,7 @@ function shuffle(){
     })
 }
 
-deckId = null
+let deckId = null
 const cardpile = document.querySelector('#cards')
 
 const newShuffle = shuffle();
